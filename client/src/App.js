@@ -58,6 +58,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
+        <h2>Grocery List</h2>
         <GroceryForm addItem={this.addItem} />
         <GroceryList
           items={this.state.items}

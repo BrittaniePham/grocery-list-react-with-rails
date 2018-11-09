@@ -26,7 +26,7 @@ const Item = ({ id, purchase, name, updateItem, deleteItem }) => (
         defaultChecked={purchase}
         onClick={() => updateItem(id)}
       />
-      <label htmlFor={`item-${id}`}>Purchase?</label>
+      <label htmlFor={`item-${id}`}>Purchased</label>
     </div>
 
     {/* delete button */}
